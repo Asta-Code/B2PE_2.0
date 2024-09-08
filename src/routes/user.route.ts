@@ -1,10 +1,12 @@
+import { userRegisterExpect } from "../controllers/user_controller";
+
 const { Router } = require('express');
 
 
 
 const router = Router();
 
-router.post('/register' );
+router.post('/register',userRegisterExpect );
 
 
 
