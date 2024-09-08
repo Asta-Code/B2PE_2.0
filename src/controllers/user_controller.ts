@@ -16,7 +16,6 @@ export const userRegisterExpect = async (req: Request, res: Response) => {
       }
       
     )
-    console.log("type user buy", result)
     res.status(200).json(result);
   }
   if(type_user === 'seller'){
